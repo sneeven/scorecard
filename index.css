@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'CursedTimerUlil-Aznm';
+    src: url('./fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+}
+
+.main {
+    margin: 50px;
+}
+
+.btn-btn-small {
+    padding: 5px 5px;
+    text-align: center;
+    margin-top: 5px;
+    height: auto;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 20px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.btn-btn-big {
+    padding: 5px;
+    margin-top: 150px;
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 15px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+
+}
+
+
+
+
+p {
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 100px;
+    padding-top: 20px;
+    color: #F94F6D;
+}
+
+#box {
+    border: 0px;
+    margin-top: 10px;
+    background-color: #080001;
+    border-radius: 5px;
+    width: 155px;
+
+}
+
+h3 {
+    color: #EEEEEE;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#buttons {
+    margin-top: 10px;
+}
